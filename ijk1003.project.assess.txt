@@ -1,0 +1,63 @@
+
+CpSc 217 Fall 2016                    Name: ______Ian Karchin_____________________
+
+Assessment of Project             Username: ___ijk1003______________________
+
+ue date:  12/12/2016               Points: ___90_____/ 100 
+
+
+
+ Critical Thinking and Problem solving (65 pts)
+____________________________________________________________________
+
+  __4___ (5 pts) Correct program
+
+  __4___ (5 pts) Use of text, images and other graphical elements
+
+  __5___ (5 pts) Formatting of text, images and other graphical elements
+
+  __6___ (10 pts) User input directing animation
+
+  __5___ (5 pts) Use of events and event hanlders to process user's input
+
+  __3___ (5 pts) Use of random numbers
+
+  __5___ (5 pts) Correct use of coodinates
+
+  __4___ (5 pts) Movement of images
+
+  __5___ (5 pts) Range of movement
+
+  __5___ (5 pts) Timing
+
+  __10___ (10 pts) Access to objects and their properties/attributes
+
+ 
+ 
+ Communication (35 pts)
+____________________________________________________________________
+
+
+  __2___ (2 pts) Title of web page
+
+  __3___ (3 pts) Your name on web page
+
+  __4___ (5 pts) Layout of contents and user interface elements
+
+  __5___ (5 pts) Instructions/explanation
+
+  __5___ (5 pts) Programming style (Variable declaration, meaningful identifieres, and indentation)
+ 
+  __5___ (5 pts) JavaScript documentation 
+
+  __10___ (10 pts) Creativitiy in use of font setting, images, color schemes, etc.
+
+
+Comments
+____________________________________________________________________
+
+The user should be able to specify min/max speed;
+
+Error in the calculation of randome speed;
+
+No indication of finish line;

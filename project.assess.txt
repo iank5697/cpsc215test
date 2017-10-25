@@ -1,0 +1,57 @@
+
+CpSc 217 Fall 2016                    Name: ______Ian Karchin_____________________
+
+Assessment of Project             Username: ___ijk1003______________________
+
+Due date:  12/12/2016               Points: ________/ 100 
+
+
+
+ Critical Thinking and Problem solving (65 pts)
+____________________________________________________________________
+
+  _____ (5 pts) Correct program
+
+  _____ (5 pts) Use of text, images and other graphical elements
+
+  _____ (5 pts) Formatting of text, images and other graphical elements
+
+  _____ (10 pts) User input directing animation
+
+  _____ (5 pts) Use of events and event hanlders to process user's input
+
+  _____ (5 pts) Use of random numbers
+
+  _____ (5 pts) Correct use of coodinates
+
+  _____ (5 pts) Movement of images
+
+  _____ (5 pts) Range of movement
+
+  _____ (5 pts) Timing
+
+  _____ (10 pts) Access to objects and their properties/attributes
+
+ 
+ 
+ Communication (35 pts)
+____________________________________________________________________
+
+
+  _____ (2 pts) Title of web page
+
+  _____ (3 pts) Your name on web page
+
+  _____ (5 pts) Layout of contents and user interface elements
+
+  _____ (5 pts) Instructions/explanation
+
+  _____ (5 pts) Programming style (Variable declaration, meaningful identifieres, and indentation)
+ 
+  _____ (5 pts) JavaScript documentation 
+
+  _____ (10 pts) Creativitiy in use of font setting, images, color schemes, etc.
+
+
+Comments
+____________________________________________________________________

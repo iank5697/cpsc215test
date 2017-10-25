@@ -1,0 +1,103 @@
+
+<!DOCTYPE html>
+<!--Ian Karchin ijk1003 -->
+<html lang="en">
+ <head>
+  <title>Race Simulation</title>
+  <meta charset="utf-8">
+ </head>
+ <style>
+	img#green{
+	position: absolute;
+	top: 200px;
+	}
+	img#blue{
+	position: absolute;
+	top: 400px;
+	}
+ </style>
+ <body>
+	<h1>Ian Karchin's "The Great Race!"</h1>
+	<br>Select your racer:
+	<select name="racers">
+			<optgroup label="Select your racer!">
+					<option>Gerald Green</option>
+					<option>Patrick Purple</option>							
+					</select>												
+		Length of Track:
+		<select name="length" id="course">	
+						<optgroup label="Select the Length of the course">
+						<option disabled selected>Course Lengths</option>
+						<option value="300">Short</option>
+						<option value="600">Medium</option>
+						<option value="1000">Long</option>
+									
+							</select>
+		Racers' Speed:
+		<select name="speed" id="speed">
+			<optgroup label="Select the Speed">
+			<option disabled selected>Racer speed</option>
+			<option value="25">Slow</option>
+			<option value="8">Normal</option>
+			<option value="1">Fast</option>
+			</select>
+									
+		<input type="button" id="start" value="Start the Great race!" onclick="raceStart()">
+		<br><img src="green.jpg" id="green">
+		<br><img src="blue.jpg" id="blue">
+ 
+	<script>
+		var greenMan=document.images[0];
+		var blueMan=document.images[1];
+		var myLeft1 = 0;
+		var myLeft2 = 0;
+		var audio = new Audio('fire.mp3');
+		
+		
+		
+		
+		
+		
+	
+		function raceStart(){
+			setTimeout('racersGo()', 50);
+			audio.currentTime = 39.6;
+			audio.play();
+			
+		}
+		
+		
+		function racersGo(){
+		var myLength = document.getElementById("course");
+		var raceLength = myLength.options[myLength.selectedIndex].value;
+		var mySpeed = document.getElementById("speed");
+		var raceSpeed = mySpeed.options[mySpeed.selectedIndex].value;
+		
+			myLeft1 = myLeft1 + Math.random();
+			myLeft2 = myLeft2 + Math.random();
+			
+			greenMan.style.left = myLeft1 + 'px';
+			blueMan.style.left = myLeft2 + 'px';
+			
+			
+			
+			if (myLeft1 && myLeft2 < raceLength)
+				setTimeout('racersGo()', raceSpeed);
+				
+			else if (myLeft1 >= raceLength){
+				alert("Gerald Green has won the race!")
+				audio.pause();}
+				
+			else if (myLeft2 >= raceLength){
+				alert("Patrick Purple has won the race!")
+				audio.pause();}
+			
+			}
+	
+	/*Audio from:  https://www.youtube.com/watch?v=SRbhLtjOiRc
+	pictures from: http://www.clker.com/cliparts/Z/Q/n/5/9/r/green-and-blue-running-man-md.png
+				   https://img.clipartfest.com/de179c51863f380afeff1228cf437af6_clipart-man-running-clipart-clipart-man-running_528-595.png
+				   */
+	</script>
+ </body>
+</html>
